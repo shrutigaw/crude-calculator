@@ -1,0 +1,40 @@
+.calculator {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  input {
+    width: 80%;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .equal-btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .result-box {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  

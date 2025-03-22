@@ -1,0 +1,15 @@
+<div class="calculator">
+  <input type="number" [(ngModel)]="num1" placeholder="Enter number 1">
+  <div class="operation-box">{{ operation }}</div>
+  <input type="number" [(ngModel)]="num2" placeholder="Enter number 2">
+  
+  <div class="buttons">
+    <button (click)="setOperation('ADD')">+</button>
+    <button (click)="setOperation('SUBSTRACT')">-</button>
+    <button (click)="setOperation('MULTIPLY')">×</button>
+    <button (click)="setOperation('DIVIDE')">÷</button>
+  </div>
+  
+  <button class="equal-btn" (click)="calculate()">=</button>
+  <div class="result-box">{{ result }}</div>
+</div>
